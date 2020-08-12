@@ -1,0 +1,157 @@
+
+p {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #00b5e4;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.allMessages {
+    flex: 1;
+    margin-top: 15px;
+    width: calc(60% + var(--addedPadding)*2);
+    padding: var(--addedPadding);
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: var(--primaryLight);
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-gap: 5px;
+    padding-right: 15px;
+    width: 250px;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    font-size: 16px;
+}
+
+.allMessages>p {
+    text-indent: -2em;
+    margin-left: 2em;
+}
+
+.userContainer {
+    margin: 20px 0 40px 0;
+    width: 60%;
+    border: 2px solid var(--accent);
+}
+
+label {
+    font-size: 1.3em;
+}
+
+input {
+    font-size: 1.3em;
+    background: none;
+    border: unset;
+    border-bottom: white 2px solid;
+}
+
+input:focus {
+    outline: none;
+}
+
+.userContainer {
+    padding: var(--addedPadding);
+}
+
+form,
+.inputContainer,
+.singleInput {
+    display: grid;
+    grid-gap: var(--addedPadding);
+}
+
+form {
+    grid-template: auto/1fr auto;
+}
+
+.inputContainer {
+    grid-template: auto auto/auto;
+}
+
+.singleInput {
+    grid-template: auto/auto 1fr;
+}
+
+#submitButton {
+    background-color: #00b5e4;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 6px;
+    transition-duration: 0.8s;
+    cursor: pointer;
+    font-size: x-large;
+    border-width: 4px;
+}
+
+#submitButton:hover {
+    background-color: #E00C4A;
+    color: white;
+}
+
+#submitButton:focus {
+    outline-style: none;
+    outline-width: 2px;
+}
+
+label
+{
+    cursor: pointer;
+}
+
+.return_button
+{
+    background-color: #00b5e4;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition-duration: 0.8s;
+    font-family: 'Playfair Display', serif;
+    font-size: x-large;
+    border-width: 4px;
+}
+
+.return_button:hover
+{
+    background-color: #E00C4A;
+    color: white;
+}
+
+@media (max-width: 524px)
+{
+    #submitButton
+    {
+        height: initial;
+        width: 60%;
+    }
+    .allMessages
+    {
+        width: 35%;
+        height: initial;
+    }
+    h1
+    {
+        width: 70%;
+        height: intial;
+    }
+    .inputContainer
+    {
+        height: initial;
+    }
+}

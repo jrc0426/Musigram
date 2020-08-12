@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBBcl15aWckQx7Qk3QLdZJKdZRyvjmhw4g",
+    authDomain: "musigrambase.firebaseapp.com",
+    databaseURL: "https://musigrambase.firebaseio.com",
+    projectId: "musigrambase",
+    storageBucket: "musigrambase.appspot.com",
+    messagingSenderId: "510930299387",
+    appId: "1:510930299387:web:a0f7d364ff33523557035e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    <link rel= "stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+    <link rel="shortcut icon" type="image/ico" href="images/betterlogo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
+    <title>Login Page</title>
+</head>
+<body>
+    <h1 class='header_text'>
+        Login:
+    </h1>
+    
+    <div class="login_container">
+    <label for="name">Username:</label>
+    <input type="text" id="name" size="30"><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" size="30"><br><br>
+
+    <button class="login_button">Login</button>
+  </div>
+</body>
+</html>

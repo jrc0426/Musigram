@@ -1,0 +1,78 @@
+/*
+Black: #00000A
+Red: #E00C4A
+Light Blue: #00B5E4
+White: #FFFFFF
+Dark red: #C7000B
+Dark blue: #000642
+*/
+
+body
+{
+    background-color: #000642;
+}
+
+
+#reg_title
+{
+    font-family: 'Lemonada', cursive;
+    color: white;
+    margin-right: 120px;
+    text-align: center;
+}
+
+.register_container
+{
+    border: 4px ridge none;
+    background-color: #E00C4A;
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.return_button
+{
+    background-color: #00b5e4;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: x-large;
+    border-width: 4px;
+    float: left;
+}
+
+.register_button
+{
+    background-color: #E00C4A;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 6px;
+    transition-duration: 0.8s;
+    cursor: pointer;
+    font-size: x-large;
+    border-width: 4px;
+}
+
+.register_button:hover
+{
+    background-color: #00b5e4;
+    color: white;
+}
+
+@media (max-width: 585px)
+{
+    .register_container
+    {
+        width: 80%;
+        height: initial;
+        float: left;
+    }
+}

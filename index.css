@@ -1,0 +1,258 @@
+/*
+Black: #00000A
+Red: #E00C4A
+Light Blue: #00B5E4
+White: #FFFFFF
+Dark red: #C7000B
+Dark blue: #000642
+*/
+
+body{
+    background-color: #E00C4A;
+    
+}
+h1{
+    font-family: 'Lemonada', cursive;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+h3{
+    font-family: 'Lemonada', cursive;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background: #00b5e4;
+    color: white;
+    padding-top: 18px;
+    size: 30px;
+    text-align: center;
+    padding-bottom: 14px;
+  }
+
+.button_container
+{
+    border: 4px ridge silver;
+    background-color: white;
+    color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    text-align: center;
+    clear: both;
+    padding-top: 18px;
+}
+
+.instrument_button
+{
+    border-color: silver;
+    color: black;
+    display: none;
+}
+
+.instrument_button:hover
+{
+    background-color: #00B5E4;
+    color: white;
+}
+
+.text_container
+{
+    padding: 18px 18px;
+}
+
+.img_container
+{
+    float: left;
+    width: 35%;
+}
+
+.radio_container
+{
+    border: 4px ridge none;
+    background-color: #00B5E4;
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 18px;
+}
+
+#ins_body
+{
+    background-color: #000642;
+    color: white;
+    font-family: 'Lemonada', cursive;
+
+}
+
+#sax
+{
+    padding: 16px 18px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#bass
+{
+    padding: 16px 18px;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+.user_area
+{
+    float: left;
+}
+
+.register_button
+{
+    border-color: silver;
+    color: black;
+    display: none;
+}
+
+.register_button:hover
+{
+    background-color: #E00C4A;
+    color: white;
+}
+
+.profile_button
+{
+    border-color: silver;
+    color: black;
+}
+
+.profile_button:hover
+{
+    background-color: #E00C4A;
+    color: white;
+}
+
+p{
+    text-align: center;
+}
+
+.messaging_button
+{
+    border-color: silver;
+    color: black;
+}
+
+.messaging_button:hover
+{
+    background-color: #00B5E4;
+    color: white;
+}
+
+.icon_container
+{
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.section_headers
+{
+    color: white;
+}
+
+#profile
+{
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+#messaging
+{
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+#instruments
+{
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+    display: none;
+}
+
+#register
+{
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#musigram_container
+{
+    border-radius: 50%;
+}
+
+.user_area
+{
+    position: absolute;
+    font-family: 'Lemonada', cursive;
+    font-size: 16px;
+    color: black;
+    
+}
+
+
+@media (max-width: 709px)
+{
+    .header
+    {
+        width: 105%;
+        height: initial;
+    }
+    #profile
+    {
+        width: 70%;
+        height: initial;
+    }
+    #messaging
+    {
+        width: 70%;
+        height: initial;
+    }
+    #instruments
+    {
+        width: 70%;
+        height: initial;   
+    }
+    .user_area
+    {
+        width: 2%;
+        height: initial;
+    }
+}

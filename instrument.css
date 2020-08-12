@@ -1,0 +1,36 @@
+label
+{
+    cursor: pointer;
+}
+
+.submit_button
+{
+    background-color: #00b5e4;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 6px;
+    transition-duration: 0.8s;
+    cursor: pointer;
+    font-size: x-large;
+    border-width: 4px;
+}
+
+.submit_button:hover
+{
+    background-color: #E00C4A;
+    color: white;
+}
+
+.return_button
+{
+    background-color: #E00C4A;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: x-large;
+    border-width: 4px;
+    float: left;
+}

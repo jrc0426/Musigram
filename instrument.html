@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/ico" href="images/betterlogo.png">
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBBcl15aWckQx7Qk3QLdZJKdZRyvjmhw4g",
+    authDomain: "musigrambase.firebaseapp.com",
+    databaseURL: "https://musigrambase.firebaseio.com",
+    projectId: "musigrambase",
+    storageBucket: "musigrambase.appspot.com",
+    messagingSenderId: "510930299387",
+    appId: "1:510930299387:web:a0f7d364ff33523557035e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    <link rel= "stylesheet" href="instrument.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="instrument.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
+
+    <title>Instrument Page</title>
+</head>
+
+
+<body id='ins_body'>
+    <a href="index.html "><button class="return_button">
+        Return
+    </button></a>
+
+    <div class="header">
+        <h1>Pick Your Instrument</h1>
+        <h3>You can change this at any time or add another</h3>
+        <br>
+        <br>
+      </div>
+      <br>
+
+    <div class="radio_container">
+        <input type="radio" id="sax" name="instrument" value="Saxophone" >
+        <label for="sax">Saxophone</label><br>
+
+        <input type="radio" id="bass" name="instrument" value="Bass Guitar" >
+        <label for="bass">Bass Guitar</label><br>
+
+        <input type="radio" id="drum" name="instrument" value="Drumset" >
+        <label for="drum">Drumset</label><br>
+
+        <input class="selected_instrument" type="radio" id="xylo" name="instrument" value="Xylophone" >
+        <label for="xylo">Xylophone</label><br>
+
+        <input type="radio" id="cello" name="instrument" value="Cello" >
+        <label for="cello">Cello</label><br>
+
+        <input type="radio" id="flute" name="instrument" value="Flute" >
+        <label for="flute">Flute</label><br>
+
+        <input type="radio" id="trump" name="instrument" value="Trumpet" >
+        <label for="trump">Trumpet</label><br>
+        
+        <input type="radio" id="clar" name="instrument" value="Clarinet" >
+        <label for="clar">Clarinet</label>
+    </div>
+    <br>
+    <a href="index.html"><button class="submit_button ">
+        Submit
+    </button></a>
+</body>
+</html>

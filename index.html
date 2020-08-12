@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/ico" href="images/betterlogo.png">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id"
+        content="1001653882318-3hqc5c28oa41ma0pj3gmd5oa53igjrvr.apps.googleusercontent.com">
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBBcl15aWckQx7Qk3QLdZJKdZRyvjmhw4g",
+            authDomain: "musigrambase.firebaseapp.com",
+            databaseURL: "https://musigrambase.firebaseio.com",
+            projectId: "musigrambase",
+            storageBucket: "musigrambase.appspot.com",
+            messagingSenderId: "510930299387",
+            appId: "1:510930299387:web:a0f7d364ff33523557035e"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
+    <title>Musigram</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="user_area text_container">
+            <!--user stuff goes here-->
+            <label for="userContainer">Username: <span id="userContainer">
+
+                </span></label> <br>
+
+            <label for="insContainer">Instrument: <span id="insContainer">
+
+                </span></label> <br>
+
+                <a href="register.html">Register</a> <br>
+            <a href="login.html">Login</a> <br>
+            <a class='sign_out' href="#">Sign Out</a>
+        </div>
+        <img id="musigram_container" src="images/Final Logo.gif" width="250">
+        <br>
+        <h1>MusiGram</h1>
+        <h3>Made to give the world a melody</h3>
+    </div>
+
+    <div class="icon_container">
+        <a href="profile.html">
+            <div id='profile'>
+                <img src="images/user-solid.svg" width=50 alt="Profile">
+                <h3 class=section_headers>
+                    Profile
+                </h3>
+            </div>
+        </a>
+
+
+        <a href="instrument.html">
+            <div id='instruments'>
+                <img src="images/guitar-solid.svg" width=50 alt="Instruments">
+                <h3 class=section_headers>
+                    Instruments
+                </h3>
+            </div>
+        </a>
+
+        <a href="messaging.html">
+            <div id='messaging'>
+                <img src="images/comments-solid.svg" width=50 alt="Message">
+                <h3 class=section_headers>
+                    Message
+                </h3>
+            </div>
+        </a>
+    </div>
+
+    <!--First container: register
+<a href="register.html"><button class="button_container register_button">
+    <img class="img_container" src="images/Musical-instruments-on-a-chair-114751244.jpg">
+    <p class="text_container">
+       Register and sign up here!
+    </p>
+</button> </a>
+
+Second Container: Find an instrument
+<a href="instrument.html"><button class="button_container instrument_button">
+    <img class="img_container" src="images/intruments.jpg">
+    <p class="text_container">
+        Pick your instrument here and click now to find your next JAM mate!
+    </p>
+</button> </a>
+
+    <a href="messaging.html"><button class="button_container messaging_button">
+        <img class="img_container" src="images/message.png">
+        <p class="text_container">
+           Message
+        </p>
+    </button> </a>
+    third container: Find a musician-->
+</body>
+
+</html>

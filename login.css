@@ -1,0 +1,53 @@
+/*
+Black: #00000A
+Red: #E00C4A
+Light Blue: #00B5E4
+White: #FFFFFF
+Dark red: #C7000B
+Dark blue: #000642
+*/
+
+.login_button
+{
+    background-color: #E00C4A;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 6px;
+    transition-duration: 0.8s;
+    cursor: pointer;
+    font-size: x-large;
+    border-width: 4px;
+}
+
+.login_button:hover
+{
+    background-color: #000642;
+    color: white;
+}
+
+.header_text
+{
+    font-family: 'Lemonada', cursive;
+    color: white;
+    text-align: center;
+}
+
+.login_container
+{
+    border: 4px ridge none;
+    background-color: #00b5e4;
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 18px;
+}
+
+body
+{
+    background-color: #C7000B;
+}
